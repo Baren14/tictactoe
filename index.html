@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe!</title>
+    <link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="game_space">
+        <div class="row">
+            <input type="button" class="grid" onclick="button_clicked(0,0)" name="0,0">
+            <input type="button" class="grid" onclick="button_clicked(0,1)" name="0,1">
+            <input type="button" class="grid" onclick="button_clicked(0,2)" name="0,2">
+        </div>
+        <div class="row">
+            <input type="button" class="grid" onclick="button_clicked(1,0)" name="1,0">
+            <input type="button" class="grid" onclick="button_clicked(1,1)" name="1,1">
+            <input type="button" class="grid" onclick="button_clicked(1,2)" name="1,2">
+        </div>
+        <div class="row">
+            <input type="button" class="grid" onclick="button_clicked(2,0)" name="2,0">
+            <input type="button" class="grid" onclick="button_clicked(2,1)" name="2,1">
+            <input type="button" class="grid" onclick="button_clicked(2,2)" name="2,2">
+        </div>
+    </div>
+    <div id="button_container"></div>
+    <p id="indicator"></p>
+</body>
+</html>
